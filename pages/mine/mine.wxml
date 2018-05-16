@@ -1,0 +1,108 @@
+<view class='containers'>
+  <image class='userInfo-icon' src='http://wimg.spriteapp.cn/profile/large/2016/09/29/57ec70bf1adcb_mini.jpg'></image>
+  <view class='userInfo'>
+    <text>媒体2</text>
+    <text>LV16 来到人民日报77天</text>
+  </view>
+  <!-- <text class='changeInfo'>修改信息</text> -->
+</view>
+<view class='menue'>
+  <view class='menue-item'>
+    <image src='/img/icon_my_server.png'></image>
+    <text>生活服务</text>
+  </view>
+  <view class='menue-item'>
+    <image src='/img/icon_mine_party.png'></image>
+    <text>智慧党建</text>
+  </view>
+  <view class='menue-item'>
+    <image src='/img/icon_my_collent.png'></image>
+    <text>我的收藏</text>
+  </view>
+  <view class='menue-item'>
+    <image src='/img/icon_my_history.png'></image>
+    <text>历史记录</text>
+  </view>
+  <view class='menue-item'>
+    <image src='/img/icon_my_message.png'></image>
+    <text>我的消息</text>
+  </view>
+</view>
+<view class='line'></view>
+<view class='list'>
+  <view class='list-item'>
+    <image src='/img/icon_my_comment.png'></image>
+    <text>我的评论</text>
+    
+    <text id='intro'>测试双引号'呼呼呼呼'</text>
+    <image id="narrow" src='/img/new_setting_enter.png'></image>
+  </view>
+  <view class='item-line'> </view>
+  <view class='list-item'>
+    <image src='/img/icon_my_dwonload.png'></image>
+    <text>我的下载</text>
+    <text id='intro'>回忆你曾经下载的视频</text>
+    <image id="narrow" src='/img/new_setting_enter.png'></image>
+  </view>
+  <view class='item-line'> </view>
+  <view class='list-item'>
+    <image src='/img/icon_my_zhengwu.png'></image>
+    <text>我的关注</text>
+    <text id='intro'>关注大事,在这里</text>
+    <image id="narrow" src='/img/new_setting_enter.png'></image>
+  </view>
+  <view class='item-line'> </view>
+  <view class='list-item'>
+    <image src='/img/icon_my_track.png'></image>
+    <text>事件追踪</text>
+    <text id='intro'>查看追踪</text>
+    <image id="narrow" src='/img/new_setting_enter.png'></image>
+  </view>
+  <view class='item-line'> </view>
+  <view class='list-item'>
+    <image src='/img/icon_my_love.png'></image>
+    <text>我的公益</text>
+    <text id='intro'>人人都献出一点爱</text>
+    <image id="narrow" src='/img/new_setting_enter.png'></image>
+  </view>
+  <view class='item-line'> </view>
+  <view class='list-item'>
+    <image src='/img/icon_my_ask.png'></image>
+    <text>问政提问</text>
+    <text id='intro'>看进度方法</text>
+    <image id="narrow" src='/img/new_setting_enter.png'></image>
+  </view>
+  <view class='item-line'> </view>
+  
+ <view class='list-item'>
+    <image src='/img/icon_mine_hot_action.png'></image>
+    <text>热门活动</text>
+    <text id='intro'>最近有啥新的活动</text>
+    <image id="narrow" src='/img/new_setting_enter.png'></image>
+  </view>
+  <view class='item-line'> </view>
+
+ <view class='list-item'>
+    <image src='/img/icon_my_night.png'></image>
+    <text>夜间模式</text>
+    <!-- <text id='intro'>重新设置重新感受</text>
+    <image id="narrow" src='/img/new_setting_enter.png'></image> -->
+    <switch id="switch" bindchange="switch2Change"/>
+  </view>
+  <view class='item-line'> </view>
+
+  <view class='list-item'>
+    <image src='/img/icon_my_feedback.png'></image>
+    <text>意见反馈</text>
+    <text id='intro'>听你的。。。。</text>
+    <image id="narrow" src='/img/new_setting_enter.png'></image>
+  </view>
+  <view class='item-line'> </view>
+  <view class='list-item'>
+    <image src='/img/icon_my_setting.png'></image>
+    <text>系统设置</text>
+    <text id='intro'>重新设置重新感受</text>
+    <image id="narrow" src='/img/new_setting_enter.png'></image>
+  </view>
+  <view class='item-line'> </view>
+</view>

@@ -1,0 +1,44 @@
+<loading hidden="{{hidden}}" bindchange="loadingChange">
+  加载中...
+</loading>
+
+<scroll-view scroll-y="true" style="height: {{winH}}px;" bindscrolltolower="loadMore" bindscrolltoupper="refesh" enable-back-to-top="true">
+  <!--刷新头  -->
+  <view wx:if="{{hasRefesh}}" style="display: flex;flex-direction: row;align-items: center;align-self: center;justify-content: center;">
+    <!-- <icon type="waiting" size="45" /> -->
+    <text>刷新中...</text>
+  </view>
+  <view wx:else style="display:none">
+    <text></text>
+  </view>
+  <swiper indicator-dots='true' autoplay='true'>
+    <block wx:for="{{movies}}" wx:key="*this" wx:for-index="index">
+      <swiper-item>
+        <image style='width: 100%;' src='{{item}}' mode='aspectFill'></image>
+      </swiper-item>
+    </block>
+
+  </swiper>
+  <!--列表中的item  -->
+  <view class="lll" wx:for="{{list}}" wx:key="username" wx:for-item="item" bindtap="bindViewTap" data-title="{{item.text}}" style="display:flex; align-items:center;">
+    <view>
+      <image mode='widthFix' style="width:50px;height:50px;margin:20rpx;" src="{{item.header}}"></image>
+    </view>
+
+    <view class="eee">
+      <view style="margin:5px;font-size:12px"> 标题:{{item.text}}</view>
+      <view style="margin:5px;color:red;font-size:12px"> 来源:{{item.username}}</view>
+    </view>
+  </view>
+  <!--上拉加载部分  -->
+  <view class="tips1">
+    <view wx:if="{{hasMore}}" style="display: flex;flex-direction: row;align-items: center;align-self: center;justify-content: center;">
+      <!-- <icon type="waiting" size="45" /> -->
+      <text>玩命的加载中...</text>
+    </view>
+    <view wx:else style="justify-content:center">
+      <text>没有更多内容了</text>
+    </view>
+  </view>
+
+</scroll-view>

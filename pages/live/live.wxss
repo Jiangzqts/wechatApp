@@ -1,0 +1,24 @@
+.live-item{
+  position: relative;
+}
+#type {
+  position: absolute;
+  left: 20px;
+  color: white;
+  top: 170px;
+  padding: 2px;
+  background: #f00;
+  font-size: 12px;
+  border-radius: 5px;
+}
+
+#num {
+  padding: 2px;
+  position: absolute;
+  margin-left: 30px;
+  color: white;
+  font-size: 12px;
+  left: 25px;
+  top: 170px;
+  opacity: 0.8;
+}

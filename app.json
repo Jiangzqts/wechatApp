@@ -1,0 +1,49 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/live/live",
+    "pages/detail/detail",
+    "pages/mine/mine",
+    "pages/play/play"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "人民日报",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "新闻",
+         "iconPath":"img/icon_home_default.png",
+         "selectedIconPath":"img/icon_home_select.png"
+
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "人民号",
+        "iconPath": "img/icon_peo_num_default.png",
+        "selectedIconPath": "img/icon_peo_num_select.png"
+      },
+      {
+        "pagePath": "pages/live/live",
+        "text": "直播",
+        "iconPath": "img/icon_live_default.png",
+        "selectedIconPath": "img/icon_live_select.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "img/icon_my_default.png",
+        "selectedIconPath": "img/icon_my_select.png"
+      }
+    ],
+    "color": "#535353",
+    "selectedColor": "#E50113",
+    "iconPath": "img/ic_home_night.png"
+  }
+  
+}

@@ -1,0 +1,6 @@
+@import "/lib/weui.wxss";
+
+.play{
+  width: 100%;
+  height: 300px;
+}
